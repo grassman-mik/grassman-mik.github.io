@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="js.css"><!--插入css檔 -->
+	<title></title>
+</head>
+<body>
+	<span>Width = </span><span id="SpanID1"></span>
+	<br />
+	<span>Height = </span><span id="SpanID2"></span>
+	<script type="text/javascript">
+start();
+window.addEventListener('resize', start);
+
+function start(){
+  document.getElementById('SpanID1').innerText = document.documentElement.clientWidth;
+  document.getElementById('SpanID2').innerText = document.documentElement.clientHeight;
+}
+	</script>
+<div class="aa">aaa</div>
+<div class="bb">bbb</div>
+
+</body>
+</html>

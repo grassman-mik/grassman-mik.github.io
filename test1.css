@@ -1,0 +1,238 @@
+@keyframes move {
+  0%{transform: translate(-40px,0px);opacity: 0;}
+  100%{transform: translate(0px,0px);opacity: 1;}
+}
+
+
+.bkg
+{
+  background-image: url('https://uploadstatic-sea.mihoyo.com/contentweb/20210210/2021021013065250274.jpg');
+  backdrop-filter:blur(8px);
+  background-size: cover ;
+  
+}
+
+.charbtn
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.abtn
+{
+  display: inline;
+}
+
+.venti
+{
+  transform-origin: unset;
+  background-image: url("https://patchwiki.biligame.com/images/ys/2/20/n7fr5xrf4d3gcivxktprxmp1ze5171k.png");
+  background-position: -900px -200px;
+  width:150px;
+  height:150px;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 25px;
+  border-radius: 50% 50% 50% 50%;
+  text-size-adjust: 2;
+  transition-duration: 0.2s; /*動畫持續時間為2秒*/
+  transform-origin: 50% 100%;
+}
+
+.venti:hover
+{
+  width:170px;height:170px;
+  transition-duration: 0.2s;
+}
+
+.ventia
+{
+  display: none;
+  transform-origin: unset;
+  background-image: url("https://patchwiki.biligame.com/images/ys/2/20/n7fr5xrf4d3gcivxktprxmp1ze5171k.png");
+  background-position: -900px -200px;
+  width:100px;
+  height:100px;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 25px;
+  border-radius: 50% 50% 50% 50%;
+  text-size-adjust: 2;
+  transition-duration: 0.2s; /*動畫持續時間為2秒*/
+  transform-origin: 50% 100%;
+}
+
+.ventia:hover
+{
+  width:120px;height:120px;
+  transition-duration: 0.2s;
+}
+
+.klee
+{
+  transform-origin: unset;
+  background-image: url("https://patchwiki.biligame.com/images/ys/6/64/5mcsfdvyw68fhoq36i8u8lz9oghyy3s.png");
+  background-position: -960px -350px;
+  width:150px;
+  height:150px;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 25px;
+  border-radius: 50% 50% 50% 50%;
+  text-size-adjust: 2;
+  transition-duration: 0.2s; /*動畫持續時間為2秒*/
+  transform-origin: 50% 100%;
+}
+
+.klee:hover
+{
+  width:170px;height:170px;
+  transition-duration: 0.2s;
+}
+
+.amber
+{
+  transform-origin: unset;
+  background-image: url("https://patchwiki.biligame.com/images/ys/c/c7/buteho7ur6wupaj4a38vh1zem3xycdl.png");
+  background-position: -925px -230px;
+  width:150px;
+  height:150px;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 25px;
+  border-radius: 50% 50% 50% 50%;
+  text-size-adjust: 2;
+  transition-duration: 0.2s; /*動畫持續時間為2秒*/
+  transform-origin: 50% 100%;
+}
+
+.amber:hover
+{
+  width:170px;height:170px;
+  transition-duration: 0.2s;
+}
+
+.kaeya
+{
+  transform-origin: unset;
+  background-image: url("https://patchwiki.biligame.com/images/ys/3/35/nww66zovesj0sr05ok57ax1h84wz3zg.png");
+  background-position: -990px -130px;
+  width:150px;
+  height:150px;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 25px;
+  border-radius: 50% 50% 50% 50%;
+  text-size-adjust: 2;
+  transition-duration: 0.2s; /*動畫持續時間為2秒*/
+  transform-origin: 50% 100%;
+}
+
+.kaeya:hover
+{
+  width:170px;height:170px;
+  transition-duration: 0.2s;
+}
+
+.lisa
+{
+  transform-origin: unset;
+  background-image: url("https://patchwiki.biligame.com/images/ys/7/70/q3oapvjdcr344dr90kvvulvp24e98o6.png");
+  background-position: -950px -150px;
+  width:150px;
+  height:150px;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 25px;
+  border-radius: 50% 50% 50% 50%;
+  text-size-adjust: 2;
+  transition-duration: 0.2s; /*動畫持續時間為2秒*/
+  transform-origin: 50% 100%;
+}
+.lisa:hover
+{
+  width:170px;height:170px;
+  transition-duration: 0.2s;
+}
+
+.ventiphoto
+{
+  width: 1536px;
+  height: 768px;
+  height: auto;
+  max-width: 100%;
+  margin-left: 160px;
+  display: inline;
+  animation:move 0.5s;
+  
+}
+
+.kleephoto
+{
+  width: 1536px;
+  height: 768px;
+  height: auto;
+max-width: 100%;
+  display: none;
+  margin-left: 160px;
+  animation:move 0.5s;
+}
+
+.amberphoto
+{
+  width: 1536px;
+  height: auto;
+max-width: 100%;
+  display: none;
+  margin-left: 160px;
+  animation:move 0.5s;
+}
+
+.kaeyaphoto
+{
+  width: 1536px;
+  height: auto;
+max-width: 100%;
+  display: none;
+  margin-left: 160px;
+  animation:move 0.5s;
+}
+
+.lisaphoto
+{
+  width: 1536px;
+  height: auto;
+max-width: 100%;
+  display: none;
+  margin-left: 160px;
+  animation:move 0.5s;
+}
+
+@media (max-witch:500px)
+{
+  .venti
+  {
+    display: none;
+  }
+  .klee
+  {
+    display: none;
+  }
+  .amber
+  {
+    display: none;
+  }
+  .kaeya
+  {
+    display: none;
+  }
+  .lisa
+  {
+    display: none;
+  }
+  .ventia
+  {
+    display: block;
+  }
+}

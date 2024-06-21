@@ -1,0 +1,36 @@
+
+@keyframes move {
+    0%{transform: translate(-500px,0px);}
+    100%{transform: translate(500px,0px);}
+}
+
+.box{
+    width: 100px;
+    height: 500px;
+    background-color: red;
+    opacity: 1;
+    bottom: 10px;
+    box-shadow: 10px 10px 5px #008000;
+    text-shadow: 10px 10px 5px #008000;
+    animation:move 1s;
+    
+}
+.aa
+  {
+    display: block;
+  }
+  .bb
+  {
+    display: none;
+  }
+@media (max-witch:500px)
+{
+  .aa
+  {
+    display: none;
+  }
+  .bb
+  {
+    display: block;
+  }
+}

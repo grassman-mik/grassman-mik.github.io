@@ -1,0 +1,137 @@
+h1{
+    
+    color: blue;
+    display: inline;
+    font-size: 20px;
+}
+h1:hover{
+    color: rgb(191, 191, 219);
+    font-size: 20px;
+    display: inline;
+}
+p{
+    color: yellowgreen;
+    font-size: 20px;
+    line-height: 20px;
+    text-indent: 20px;
+}
+li{
+    color: rgb(67, 82, 37);
+    font-size: 20px;
+}
+
+.type1
+{
+    color: rgb(79, 24, 230);
+    font-size: 20px;
+}
+
+.type2
+{
+    color: rgb(74, 47, 146);
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+.type3
+{
+    color: rgb(74, 47, 146);
+    font-size: 20px;
+    line-height: 2;
+}
+
+.type4
+{
+    color: rgb(74, 47, 146);
+    font-size: 20px;
+    text-align: right;
+}
+
+.type5
+{
+    color: rgb(74, 47, 146);
+    font-size: 20px;
+    text-indent: 40px;
+}
+
+.type6
+{
+    color: rgb(74, 47, 146);
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.type7
+{
+    color: rgb(74, 47, 146);
+    font-size: 20px;
+    border-left: 10px solid black;
+    border-right: 10px solid rgb(67, 211, 23);
+    border-top: 10px solid rgb(211, 62, 62);
+    border-bottom: 10px solid rgb(188, 238, 10);
+}
+
+.div1
+{
+    color: rgb(255, 187, 0);
+    font-size: 20px;
+}
+
+.divin
+{
+    color: rgb(0, 255, 170);
+    font-size: 20px;
+}
+
+.box1
+{
+    margin: 60px;
+    border-left: 10px solid black;
+    border-right: 10px solid rgb(67, 211, 23);
+    border-top: 10px solid rgb(211, 62, 62);
+    border-bottom: 10px solid rgb(188, 238, 10);
+}
+
+.box2
+{
+    width: 200px;
+    height: 200px;
+    background: black;
+}
+
+.box3
+{
+    padding-left: 60px;
+    border-left: 10px solid black;
+    border-right: 10px solid rgb(67, 211, 23);
+    border-top: 10px solid rgb(211, 62, 62);
+    border-bottom: 10px solid rgb(188, 238, 10);
+}
+
+.mid1
+{
+    width: 600px;
+    height: 200px;
+    background: rgb(255, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mid2
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    color: rgb(22, 18, 5);
+    background-image:url("C:/Users/user/Downloads/202405251003.png");
+}
+
+.tria
+{
+    border:  5px solid #666;
+		width: 200px;
+		height: 200px;
+    border-radius: 50%;
+}
